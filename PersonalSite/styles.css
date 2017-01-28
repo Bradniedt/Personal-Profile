@@ -16,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #8EAEBD;
 }
 a:hover {
   color: #F53240;
@@ -73,9 +73,11 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid #8EAEBD;
   transition: all .5s;
+  opacity: .95;
 }
 header .profile-image:hover {
   transform: scale(1.1) rotate(1deg);
+  opacity: 1;
 }
 .tag {
   background-color: #efefef;
